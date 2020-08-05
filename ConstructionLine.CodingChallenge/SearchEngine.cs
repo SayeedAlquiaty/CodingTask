@@ -3,13 +3,6 @@ using System.Linq;
 
 namespace ConstructionLine.CodingChallenge
 {
-    public class OptionKey
-    {
-        public string Size { get; set; }
-
-        public string Color { get; set; }
-
-    }
     public class SearchEngine
     {
         private readonly List<Shirt> _shirts;
